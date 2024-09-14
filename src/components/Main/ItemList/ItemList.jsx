@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ItemList = ({ product }) => {
   return (
     <Link to={`/item/${product.id}`} className="border-2 hover:border-paletteLightBrown duration-200">
-      <div className="w-44 sm:w-52 h-64 sm:h-72 shadow-2xl ">
+      <div className="w-40 sm:w-52 h-64 sm:h-72 shadow-2xl ">
         <figure className="h-40 sm:h-52">
           <img
             src={product.image}

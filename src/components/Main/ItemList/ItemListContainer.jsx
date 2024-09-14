@@ -41,7 +41,7 @@ const ItemListContainer = () => {
   }, [category]);
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 place-items-center gap-3 my-10 max-w-[900px]">
+    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 place-items-center gap-3 my-10 max-w-[900px] ">
       {products.map((product) => {
         return <ItemList key={product.id} product={product} />;
       })}
